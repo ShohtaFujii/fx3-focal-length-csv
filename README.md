@@ -11,6 +11,24 @@ camera and the lens is recorded inside the video's timed metadata (the
 `rtmd` stream). This tool parses that raw data directly, capturing focal
 length changes during zooms as well.
 
+## Download
+
+Get the latest zip from the
+[Releases page](https://github.com/ShohtaFujii/fx3-focal-length-csv/releases/latest).
+
+Please use that archive rather than "Code > Download ZIP". Git does not store
+the executable bit, so the copy inside the source archive cannot be launched
+by double clicking and fails with `permission denied`. The release archive
+keeps the executable permission.
+
+### First launch on macOS
+
+macOS quarantines `.command` files downloaded from the internet. The first
+time you run it, right click `fx3_focal_length.command` and choose **Open**,
+then confirm in the dialog. Double clicking straight away shows a message
+saying the developer cannot be verified. After you have opened it once,
+double clicking and drag and drop work normally.
+
 ## Usage
 
 1. Put `fx3_focal_length.command` anywhere in Finder.
